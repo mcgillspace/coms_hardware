@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/walidchabchoub/coms_hardware/comms-hardware.sch</source>
-    <date>Monday, February 19, 2018 'pmt' 03:32:04 pm</date>
+    <date>Thursday, March 08, 2018 'pmt' 03:40:00 pm</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -2222,26 +2222,26 @@
     <library logical="device">
       <uri>/Library/Application Support/kicad/library/device.lib</uri>
     </library>
+    <library logical="comms-hardware-cache">
+      <uri>/Users/walidchabchoub/coms_hardware/comms-hardware-cache.lib</uri>
+    </library>
     <library logical="conn">
       <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="stm32f407vg">
+      <uri>/Users/walidchabchoub/coms_hardware/libs/stm32f407vg.lib</uri>
     </library>
     <library logical="sma">
       <uri>/Users/walidchabchoub/coms_hardware/libs/sma.lib</uri>
     </library>
-    <library logical="stm32f407vg">
-      <uri>/Users/walidchabchoub/coms_hardware/libs/stm32f407vg.lib</uri>
+    <library logical="txco_tg_5021cg">
+      <uri>/Users/walidchabchoub/coms_hardware/libs/txco_tg_5021cg.lib</uri>
     </library>
     <library logical="opa320">
       <uri>/Users/walidchabchoub/coms_hardware/libs/opa320.lib</uri>
     </library>
     <library logical="TPS79930">
       <uri>/Users/walidchabchoub/coms_hardware/libs/TPS79930.lib</uri>
-    </library>
-    <library logical="txco_tg_5021cg">
-      <uri>/Users/walidchabchoub/coms_hardware/libs/txco_tg_5021cg.lib</uri>
-    </library>
-    <library logical="comms-hardware-cache">
-      <uri>/Users/walidchabchoub/coms_hardware/comms-hardware-cache.lib</uri>
     </library>
   </libraries>
   <nets>
