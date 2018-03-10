@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/walidchabchoub/coms_hardware/comms-hardware.sch</source>
-    <date>Thursday, March 08, 2018 'pmt' 03:40:00 pm</date>
+    <date>Saturday, March 10, 2018 'pmt' 01:13:26 pm</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -763,7 +763,7 @@
     <comp ref="U10">
       <value>CC1120</value>
       <footprint>cc1120:cc1120</footprint>
-      <libsource lib="comms-hardware-cache" part="CC1120"/>
+      <libsource lib="cc1120" part="CC1120"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57045B63</tstamp>
     </comp>
@@ -1092,7 +1092,7 @@
     <comp ref="U16">
       <value>RF5110G</value>
       <footprint>RF5110G:RF5110G</footprint>
-      <libsource lib="comms-hardware-cache" part="RF5110G"/>
+      <libsource lib="rf5110g" part="RF5110G"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57045CFF</tstamp>
     </comp>
@@ -1487,7 +1487,7 @@
     <comp ref="U12">
       <value>ADT7420</value>
       <footprint>ADT7420:ADT7420</footprint>
-      <libsource lib="comms-hardware-cache" part="ADT7420"/>
+      <libsource lib="ADT7420" part="ADT7420"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57046059</tstamp>
     </comp>
@@ -1696,7 +1696,7 @@
     <comp ref="U4">
       <value>CC1120</value>
       <footprint>cc1120:cc1120</footprint>
-      <libsource lib="comms-hardware-cache" part="CC1120"/>
+      <libsource lib="cc1120" part="CC1120"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5700E2BE</tstamp>
     </comp>
@@ -1869,7 +1869,7 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="comms-hardware-cache" part="ADT7420">
+    <libpart lib="ADT7420" part="ADT7420">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">ADT7420</field>
@@ -1908,7 +1908,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="comms-hardware-cache" part="CC1120">
+    <libpart lib="cc1120" part="CC1120">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">CC1120</field>
@@ -2034,7 +2034,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="comms-hardware-cache" part="RF5110G">
+    <libpart lib="rf5110g" part="RF5110G">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">RF5110G</field>
@@ -2219,29 +2219,38 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="ADT7420">
+      <uri>/Users/walidchabchoub/coms_hardware/libs/lsf-kicad-libs/ADT7420.lib</uri>
+    </library>
     <library logical="device">
       <uri>/Library/Application Support/kicad/library/device.lib</uri>
-    </library>
-    <library logical="comms-hardware-cache">
-      <uri>/Users/walidchabchoub/coms_hardware/comms-hardware-cache.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="stm32f407vg">
-      <uri>/Users/walidchabchoub/coms_hardware/libs/stm32f407vg.lib</uri>
     </library>
     <library logical="sma">
       <uri>/Users/walidchabchoub/coms_hardware/libs/sma.lib</uri>
     </library>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
     <library logical="txco_tg_5021cg">
       <uri>/Users/walidchabchoub/coms_hardware/libs/txco_tg_5021cg.lib</uri>
+    </library>
+    <library logical="stm32f407vg">
+      <uri>/Users/walidchabchoub/coms_hardware/libs/stm32f407vg.lib</uri>
     </library>
     <library logical="opa320">
       <uri>/Users/walidchabchoub/coms_hardware/libs/opa320.lib</uri>
     </library>
+    <library logical="rf5110g">
+      <uri>/Users/walidchabchoub/coms_hardware/libs/lsf-kicad-libs/rf5110g.lib</uri>
+    </library>
+    <library logical="cc1120">
+      <uri>/Users/walidchabchoub/coms_hardware/libs/lsf-kicad-libs/cc1120.lib</uri>
+    </library>
     <library logical="TPS79930">
       <uri>/Users/walidchabchoub/coms_hardware/libs/TPS79930.lib</uri>
+    </library>
+    <library logical="comms-hardware-cache">
+      <uri>/Users/walidchabchoub/coms_hardware/comms-hardware-cache.lib</uri>
     </library>
   </libraries>
   <nets>
